@@ -1,6 +1,6 @@
 SCRAPE
 ======
-
+我将利用该项目扩展Kinect与cave系统交互。
 **SCR**een **A**djusted **P**anoramic **E**ffect    
 Transfer 3D worlds developed in Processing to a CAVE Automatic Virtual Environment (CAVE) 
 
