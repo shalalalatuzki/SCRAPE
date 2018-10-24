@@ -140,12 +140,13 @@ void settings(){
   }
   println("You are currently displaying the " + wall + " screen");
   
-  // Set this clients screen char variable for use in switch statements later  
-  wallChar = wall.charAt(0);
+  
   
 }
 //--------------------------------------
  void setup() {
+   // Set this clients screen char variable for use in switch statements later  
+  wallChar = wall.charAt(0);
   // Random seed set for MPE. Must be identical for all clients
   randomSeed(1);
   
@@ -170,7 +171,9 @@ void settings(){
   // IMPORTANT, YOU MUST START THE CLIENT!
   client.start();
 }
+void resetEvent(TCPClient c){
 
+}
 //--------------------------------------
  // Keep the motor running... draw() needs to be added in auto mode, even if it is empty to keep things rolling
  void draw() {
